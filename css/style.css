@@ -23,22 +23,23 @@
     padding-top: 5px;
 }
 
-.margin-profile{
-    padding-top: 10px;
-    padding-bottom: 10px;
+.margin-profile-1{
+  padding: 10%, 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .nav-masthead .nav-link {
     padding: .25rem 0;
     font-weight: 700;
-    color: rgba(255, 255, 255, .5);
+    color: rgb(255, 255, 255);
     background-color: transparent;
     border-bottom: .25rem solid transparent;
   }
   
   .nav-masthead .nav-link:hover,
   .nav-masthead .nav-link:focus {
-    border-bottom-color: rgba(255, 255, 255, .25);
+    border-bottom-color: rgb(255, 255, 255);
   }
   
   .nav-masthead .nav-link + .nav-link {
@@ -48,4 +49,89 @@
   .nav-masthead .active {
     color: #fff;
     border-bottom-color: #fff;
+  }
+
+  .margin-mainpic{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: -443px;
+    margin-right: 10px;
+    float: left;
+  }
+
+  .margin-tela-historia{
+    margin-top: 15px;
+    margin-left: -60%;
+    margin-bottom: 15px;
+    float: left;
+  }
+
+  .text-estilo{
+    margin-right: -60%;
+    text-align: right;
+    margin-top: 200px;
+    float: right;
+  }
+
+  .margin-mestres{
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .margin-text{
+    text-align: center;
+  }
+
+  .margin-tela-mesas{
+    margin-top: 110px;
+    margin-right: -60%;
+    margin-bottom: 15px;
+    float: right;
+  }
+
+  .text-estilo-mesas{
+    margin-left: -60%;
+    text-align: left;
+    margin-top: 200px;
+    float: left;
+  }
+
+  .contact-btn{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: #fff;
+    padding: 3%;
+  }
+
+  .youtube{
+    cursor: pointer;
+    transition: .5s ease all;
+  }
+
+  .youtube:hover{
+    background-color: red;
+    color: black;
+  }
+
+  .instagram{
+    cursor: pointer;
+    transition: .5s ease all;
+  }
+
+  .instagram:hover{
+    background-color: rgb(255, 174, 0);
+    color: black;
+  }
+
+  .discord{
+    cursor: pointer;
+    transition: .5s ease all;
+  }
+
+  .discord:hover{
+    background-color: purple;
+    color: black;
+  }
+  
+  .info{
+    padding-top: 15px;
   }
